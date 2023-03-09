@@ -1,7 +1,8 @@
 git status -- status of folder compared to github
 git pull <REMOTE> <name-of-branch>   - updates local with github
     in our case "git pull origin main"
-git add - add any changes to staging area
+git add <file or folder name>- add any changes to staging area
+    note: folder must have a file in it 
 git commit -m "<comment>"  -- commit to local git 
 git push - push changes to github
     need token for this see makeToken.txt
